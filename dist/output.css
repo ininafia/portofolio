@@ -1,0 +1,19 @@
+/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+.container {
+  width: 100%;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.w-full {
+  width: 100%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.self-center {
+  align-self: center;
+}

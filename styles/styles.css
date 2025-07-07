@@ -1,0 +1,47 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff9fa;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        
+        .soft-pink-bg {
+            background-color: #ffeef1;
+        }
+        
+        .pink-accent {
+            background-color: #ffcad4;
+        }
+        
+        .dark-pink {
+            color: #fb6f92;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(251, 111, 146, 0.2);
+        }
+        
+        .navbar {
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        
+        ::selection {
+            background: #fb6f92;
+            color: white;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(45deg, #ff8fab, #fb6f92);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    
